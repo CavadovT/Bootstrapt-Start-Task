@@ -275,10 +275,10 @@
 .rightbox .aroundbox a i {
 
     background-color: rgb(44, 62, 80);
-    padding: 1%;
+    padding: 0.5%;
     color:white; 
-    font-size: 50px;
-    border: 2px solid;
+    font-size: 35px;
+    border: 0.5px solid;
     border-radius: 50% !important;
 }
 
@@ -300,6 +300,12 @@
     max-height: 250px;
     width: 50%;
 }
+.rightbox .aboutbox p>a:hover{
+    background-color: #17df82;
+    color: whitesmoke;
+    transition: 0.8s;
+}
+
 
 .rightbox .aboutbox h1 {
     padding: 5%;
